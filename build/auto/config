@@ -7,8 +7,7 @@ lb config noauto \
 	--archive-areas main contrib non-free \
 	--image-name pennyweight-linux \
 	--iso-application Pennyweight GNU/Linux \
-	-b iso-hybrid \
-	--hdd-label PENNYWEIGHT \
 	--iso-publisher Pennyweight Project \
 	--iso-volume Pennyweight testing 3/5/2023 \
+	-b iso-hybrid \
 	"${@}"
