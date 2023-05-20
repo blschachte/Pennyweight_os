@@ -1,9 +1,9 @@
-PRETTY_NAME="Pennyweight GNU/Linux 12 (bookworm)"
+PRETTY_NAME="Pennyweight Linux 5-20-2023 (testing)"
 NAME="Pennyweight GNU/Linux"
-VERSION_ID="1"
-VERSION="1"
+VERSION_ID="12"
+VERSION="5-20-2023"
 VERSION_CODENAME=testing
 ID=pennyweight
-HOME_URL="https://www.debian.org/"
-SUPPORT_URL="https://www.debian.org/support"
-BUG_REPORT_URL="https://bugs.debian.org/"
+HOME_URL="https://github.com/blschachte/Pennyweight_os"
+SUPPORT_URL="https://github.com/blschachte/Pennyweight_os"
+BUG_REPORT_URL="https://github.com/blschachte/Pennyweight_os/issues"
