@@ -3,12 +3,12 @@
 set -e
 
 echo "-- Updating Host System"
-apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 
 echo "-- Entering Build Directory"
 cd build
 echo "-- Preparing Build Directory"
- lb clean
+sudo lb clean
 echo "-- Creating Config Folder"
 lb config
 echo "-- Leaving Build Directory"
@@ -22,10 +22,10 @@ cp -r hooks/* build/config/hooks/normal/ && echo "copied hooks to build/config/h
 echo "-- Entering Build Directory"
 cd build
 echo "-- Building image"
-lb build
+sudo lb build
 cd build
 echo "-- Writing image to the disk"
-dd if=pennyweight-linux-amd64.hybrid.iso of=$1 status=progress
+sudo dd if=pennyweight-linux-amd64.hybrid.iso of=$1 status=progress
 echo "Exiting Build Directory"
 cd ..
 echo "-- Done"
