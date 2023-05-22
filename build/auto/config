@@ -10,4 +10,5 @@ lb config noauto \
 	--iso-publisher Pennyweight Project \
 	--iso-volume Pennyweight testing 3/5/2023 \
 	-b iso-hybrid \
+	--apt-recommends false
 	"${@}"

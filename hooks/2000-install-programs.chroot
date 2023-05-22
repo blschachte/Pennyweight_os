@@ -2,4 +2,4 @@
 
 set -e
 
-sudo apt install --no-install-recommends neofetch
+apt install  neofetch htop
