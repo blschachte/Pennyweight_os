@@ -2,13 +2,8 @@
 lb config noauto \
 	-a amd64 \
 	--color \
-	--mode debian \
 	-d testing \
-	--archive-areas main contrib non-free \
+	--archive-areas "main contrib non-free-firmware" \
 	--image-name pennyweight-linux \
-	--iso-application Pennyweight GNU/Linux \
-	--iso-publisher Pennyweight Project \
-	--iso-volume Pennyweight testing 3/5/2023 \
-	-b iso-hybrid \
-	--apt-recommends false
+	--iso-volume Pennyweight-testing-5/20/2023 \
 	"${@}"
