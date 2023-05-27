@@ -6,4 +6,5 @@ lb config noauto \
 	--archive-areas "main contrib non-free-firmware" \
 	--image-name pennyweight-linux \
 	--iso-volume Pennyweight-testing-5/20/2023 \
+	--debian-installer live \
 	"${@}"
