@@ -2,7 +2,7 @@
 lb config noauto \
 	-a amd64 \
 	--color \
-	-d testing \
+	-d bullseye \
 	--archive-areas "main contrib non-free-firmware" \
 	--image-name pennyweight-linux \
 	--iso-volume Pennyweight-testing-5/20/2023 \

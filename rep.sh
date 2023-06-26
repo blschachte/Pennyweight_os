@@ -25,7 +25,7 @@ echo "-- Building image"
 sudo lb build
 cd build
 echo "-- Writing image to the disk"
-sudo dd if=pennyweight-linux-amd64.hybrid.iso of=$1 status=progress
+#sudo dd if=pennyweight-linux-amd64.hybrid.iso of=$1 status=progress
 echo "Exiting Build Directory"
 cd ..
 echo "-- Done"

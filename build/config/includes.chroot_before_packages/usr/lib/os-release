@@ -1,9 +1,0 @@
-PRETTY_NAME="Pennyweight OS 5-20-2023 (bookworm)"
-NAME="Pennyweight GNU/Linux"
-VERSION_ID="12"
-VERSION="12"
-VERSION_CODENAME=bookworm
-ID=pennyweight
-HOME_URL="https://github.com/blschachte/Pennyweight_os"
-SUPPORT_URL="https://github.com/blschachte/Pennyweight_os"
-BUG_REPORT_URL="https://github.com/blschachte/Pennyweight_os/issues"
